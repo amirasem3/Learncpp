@@ -8,6 +8,10 @@ struct Entity{
         std::cout << x << "," << y << std::endl;
 
     }
+    //if we make Print function Static
+    static void Pritn2(){
+        std::cout << x << "," << y << std::endl;
+    }
 };
 
 int Entity::x;
@@ -28,6 +32,7 @@ int main(){
     // e1.Print();
     //if we want write code correctly 
     Entity e2;
+    //how we call static variable
     Entity::x = 2;
     Entity::y = 3;
 
@@ -35,7 +40,12 @@ int main(){
     Entity::x = 5;
     Entity::y = 8;
 
+    std::cout<< "Before meke Print static"<<std::endl;
     e2.Print();
     e3.Print(); 
 
+    //after we make Print static:
+    std::cout<< "After make Print static"<<std::endl;
+    Entity::Pritn2();
+    Entity::Pritn2();
 }
