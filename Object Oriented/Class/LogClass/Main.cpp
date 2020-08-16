@@ -1,4 +1,4 @@
-#include<iostream>
+ #include<iostream>
 
 class Log {
 //public variable of class
@@ -26,6 +26,7 @@ public :
     void SetLevel(int level){
         m_LogLevel = level;
     }
+    
 
 };
 
