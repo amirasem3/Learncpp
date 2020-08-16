@@ -1,0 +1,6 @@
+enum is just an integer help to keep the code cleaner
+this way to give a name to certain values and we dont have deal it with the integers
+all over the place in code
+
+Enum automatically start from 0 and increased one unit for every enum 
+but we can set to 0 , 1 ,2 , ... for increase readiblity of code
