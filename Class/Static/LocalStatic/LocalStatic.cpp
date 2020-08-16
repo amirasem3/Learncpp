@@ -28,7 +28,7 @@ public:
 //lot cleaner code
 class Singleton2{
 public:
-    static Singleton& Get(){
+    static Singleton2& Get(){
         static Singleton2 instance;
         return instance;
     }
