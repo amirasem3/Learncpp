@@ -13,4 +13,9 @@ Static(Var or Method) in C++ (Static directory)
         INSIDE CLASS : 
             befor Variable : only one instance of Variable across all instances of class
             before Method : can be called without class instances
+            static method cannot access to non static Variable
+            in example file if we delete static before "static int x,y;"
+            in Entity class and then call "Print2()" fucntion 
+            we give an error because the Print2 is static Method
+            but "x,y" is non static variables
     
