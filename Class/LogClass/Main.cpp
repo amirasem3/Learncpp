@@ -36,7 +36,7 @@ int main(){
     // log.Error("Hello!");
     // log.Warn("Hello!");
     // log.Info("Hello!");
-    //LogLevelError -> Just  Error printed
+    //LogLevelError -> Just Error printed
     log.SetLevel(log.LogLevelError);
     log.Error("Hello!");
     log.Warn("Hello!");
