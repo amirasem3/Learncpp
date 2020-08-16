@@ -18,4 +18,9 @@ Static(Var or Method) in C++ (Static directory)
             in Entity class and then call "Print2()" fucntion 
             we give an error because the Print2 is static Method
             but "x,y" is non static variables
-    
+    Local Static in C++ :
+        Lifetime of variable : how long variable stick around and remain in mem before get deleted
+        Scope of variable : refers to where we can actually access that variable 
+        local static variable allows us to declear variable has lifetime essentially our entire program
+        HOWEVER it's scope is limited be inside that function(or any kind of scope)
+            
