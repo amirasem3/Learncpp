@@ -32,3 +32,6 @@ Constructors in C++:
 Destructors in C++:
     for cleaning mem and vipe out variables
     and delete object 
+Inheritance in C++:
+    have hirearchy of class which relate to each other
+    so usefull because it helps us to avoid CODE DUPLICATION 
