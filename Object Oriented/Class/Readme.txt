@@ -35,4 +35,8 @@ Destructors in C++:
 Inheritance in C++:
     have hirearchy of class which relate to each other
     so usefull because it helps us to avoid CODE DUPLICATION 
+Visibility in C++: 
+    in class default Visibility is PRIVATE : just main class
+    Struct default Visibility = PUBLIC : everyOne!!
+    Protected : main class and all subclasses in hirearchy
 
