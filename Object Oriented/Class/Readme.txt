@@ -35,3 +35,5 @@ Destructors in C++:
 Inheritance in C++:
     have hirearchy of class which relate to each other
     so usefull because it helps us to avoid CODE DUPLICATION 
+Virtual Function: 
+    allows us to override methods in subclasses 
