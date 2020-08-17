@@ -29,3 +29,6 @@ Constructors in C++:
     BUT NOT IN CPP, we have to manaually initialized primitive types 
     would not run if we not instanciate object, so if we just use static method from class it WONT run
     talk about heib allocation
+Destructors in C++:
+    for cleaning mem and vipe out variables
+    and delete object 
