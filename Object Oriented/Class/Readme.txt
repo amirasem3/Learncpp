@@ -23,4 +23,9 @@ Static(Var or Method) in C++ (Static directory)
         Scope of variable : refers to where we can actually access that variable 
         local static variable allows us to declear variable has lifetime essentially our entire program
         HOWEVER it's scope is limited be inside that function(or any kind of scope)
-            
+Constructors in C++:
+    using for instanciate a object from class
+    In other language like java primitive type automatically initialized and set to zero 
+    BUT NOT IN CPP, we have to manaually initialized primitive types 
+    would not run if we not instanciate object, so if we just use static method from class it WONT run
+    talk about heib allocation
