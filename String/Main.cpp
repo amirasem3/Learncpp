@@ -1,5 +1,10 @@
 #include<iostream>
+#include<string>
+//we cant pass string to function with "std::string input"
+//because we make copy and this is not FAST
+void PrintString(){
 
+}
 int main(){
     //C version for defining string
     //we cant extend name!!!!!
@@ -14,4 +19,11 @@ int main(){
     std::cout << name2 << std::endl;
     char name3[6] = {'c' , 'x' , 'd' , 'd' , 0};
     std::cout << name3 << std::endl;
+    //we can use standard library #include<string>
+    std::string fami = "yousefi";
+    fami+= "asem";
+    //find pattern in string "find()"
+    bool contain = fami.find("as") != std::string::npos;
+    std::cout << contain << std::endl;
+    std::cout << fami << std::endl;
 }
